@@ -5,7 +5,8 @@ console.log(x.length)
 
 //string method#2 substr
 let y = `string 2 huhu`
-console.log(y.substr(-6,2))
+console.log(y.substr(-6,2)) // string is counted from left to right if the starting point is a positive.
+// If it's a negative, string is counted from right to left
 
 //string method#3 replace
 let z = `string 3 hihi`
